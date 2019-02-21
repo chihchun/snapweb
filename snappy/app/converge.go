@@ -158,7 +158,7 @@ func (h *Handler) removePackage(name string) error {
 func (h *Handler) installPackage(name string) error {
 	snap, err := h.getSnap(name)
 	if err != nil {
-		return err
+		// return err
 	}
 
 	var changeID string
